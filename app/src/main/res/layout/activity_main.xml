@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.example.admin.ttt.MainActivity">
+    tools:context="com.example.admin.ttt.MainActivity"
+    android:paddingTop="20dp">
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -198,4 +202,32 @@
         android:layout_alignLeft="@+id/imageButton8"
         android:layout_alignStart="@+id/imageButton8" />
 
+    <ImageButton
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton9"
+        android:src="@drawable/medicine"
+        android:background="@drawable/red_button"
+        android:minWidth="140dp"
+        android:minHeight="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/imageButton7"
+        android:layout_alignRight="@+id/imageButton7"
+        android:layout_alignEnd="@+id/imageButton7" />
+
+    <ImageButton
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton10"
+        android:src="@drawable/medicine"
+        android:background="@drawable/red_button"
+        android:minWidth="140dp"
+        android:minHeight="80dp"
+        android:layout_alignTop="@+id/imageButton9"
+        android:layout_alignRight="@+id/imageButton8"
+        android:layout_alignEnd="@+id/imageButton8" />
+
 </RelativeLayout>
+</ScrollView>
